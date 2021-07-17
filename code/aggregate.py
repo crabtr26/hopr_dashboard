@@ -7,7 +7,7 @@ def load_tables():
 
     ##### LOAD THE RAW DATA #####
     df = pd.DataFrame()
-    parent = Path(__file__).parent
+    parent = Path(__file__).parent.parent
     DATA_DIR = os.path.join(parent, 'data')
     WEEKDAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
